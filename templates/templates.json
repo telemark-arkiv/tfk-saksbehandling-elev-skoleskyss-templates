@@ -1,6 +1,8 @@
 {
   "avslag": "avslag.docx",
-  "midlertidig": "midlertidig.docx",
-  "soknad": "soknad.docx",
-  "tilslag": "tilslag.docx"
+  "midlertidig-annen": "fs.annen.arsak.docx",
+  "midlertidig-delt": "fs.delt.bosted.docx",
+  "midlertidig-hybel": "fs.hybel.docx",
+  "midlertidig-manuell": "fs.manuell.behandling.docx",
+  "innvilget": "innnvilget.docx"
 }
