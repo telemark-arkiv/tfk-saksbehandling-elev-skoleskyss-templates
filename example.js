@@ -1,5 +1,5 @@
 'use strict'
 
-var getTemplatePath = require('./index')
+const getTemplatePath = require('./index')
 
 console.log(getTemplatePath('avslag'))

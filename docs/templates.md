@@ -1,10 +1,12 @@
 # Maler
 
-Modulen inneholder 3 maler for saksbehandling og 1 for intern bruk.
+Modulen inneholder 6 maler for saksbehandling og 1 for intern bruk.
 
-Brevmalene er [avslag](../templates/avslag.docx), [midlertidig](../templates/midlertidig.docx) og [tilslag](../templates/tilslag.docx).
+Brevmalene er [avslag](../templates/avslag.docx), [forløpig - annen årsak](../templates/fs.annen.arsak.docx)
+ [forløpig - delt bosted](../templates/fs.delt.bosted.docx), [forløpig - hybel](../templates/fs.hybel.docx)
+  [forløpig - manuell behandling](../templates/fs.manuell.behandling.docx) og [innvilget](../templates/innvilget.docx).
 
-Internmalen er [soknad](../templates/soknad.docx)
+Internmalen er [doble kontakter](../templates/doble.kontakter.docx)
 
 ## Avslag
 Denne malen benyttes dersom det gis avslag på søknaden.
@@ -15,13 +17,14 @@ Koder som benyttes:
 - ```{adresse}``` Søkerens adresse
 - ```{postnr}``` Søkerens postnummer
 - ```{poststed}``` Søkerens poststed
-- ```{dato}``` Dato for søknad på formatet dd.mm.åååå
-- ```{skolar}``` Hvilket skoleår vedtaket gjelder på formatet åååå/åååå
+- ```{datoSoknad}``` Dato for søknad på formatet dd.mm.åååå
+- ```{dato}``` Dagens dato på formatet dd.mm.åååå
+- ```{skolear}``` Hvilket skoleår vedtaket gjelder på formatet åååå/åååå
 - ```{avdeling}``` Avsenderens avdeling
-- ```{avstand}``` Målt avstand
+- ```{sammendrag}``` Sammendrag av søknaden
 
-## Midlertidig
-Denne malen benyttes til midlertidige svar dersom søknaden må behandles manuelt.
+## Foreløpig annen årsak
+Denne malen benyttes til foreløpige svar dersom søknadsgrunnlaget er annen årsak.
 
 Koder som benyttes:
 
@@ -29,11 +32,58 @@ Koder som benyttes:
 - ```{adresse}``` Søkerens adresse
 - ```{postnr}``` Søkerens postnummer
 - ```{poststed}``` Søkerens poststed
-- ```{dato}``` Dato for søknad på formatet dd.mm.åååå
-- ```{skolar}``` Hvilket skoleår vedtaket gjelder på formatet åååå/åååå
+- ```{datoSoknad}``` Dato for søknad på formatet dd.mm.åååå
+- ```{dato}``` Dagens dato på formatet dd.mm.åååå
+- ```{skolear}``` Hvilket skoleår vedtaket gjelder på formatet åååå/åååå
 - ```{avdeling}``` Avsenderens avdeling
+- ```{sammendrag}``` Sammendrag av søknaden
 
-## Tilslag
+## Foreløpig delt bosted
+Denne malen benyttes til foreløpige svar dersom søkeren oppgir delt bosted.
+
+Koder som benyttes:
+
+- ```{navn}``` Søkerens navn
+- ```{adresse}``` Søkerens adresse
+- ```{postnr}``` Søkerens postnummer
+- ```{poststed}``` Søkerens poststed
+- ```{datoSoknad}``` Dato for søknad på formatet dd.mm.åååå
+- ```{dato}``` Dagens dato på formatet dd.mm.åååå
+- ```{skolear}``` Hvilket skoleår vedtaket gjelder på formatet åååå/åååå
+- ```{avdeling}``` Avsenderens avdeling
+- ```{sammendrag}``` Sammendrag av søknaden
+
+## Foreløpig hybel
+Denne malen benyttes til foreløpige svar dersom søkeren skal bo på hybel.
+
+Koder som benyttes:
+
+- ```{navn}``` Søkerens navn
+- ```{adresse}``` Søkerens adresse
+- ```{postnr}``` Søkerens postnummer
+- ```{poststed}``` Søkerens poststed
+- ```{datoSoknad}``` Dato for søknad på formatet dd.mm.åååå
+- ```{dato}``` Dagens dato på formatet dd.mm.åååå
+- ```{skolear}``` Hvilket skoleår vedtaket gjelder på formatet åååå/åååå
+- ```{avdeling}``` Avsenderens avdeling
+- ```{sammendrag}``` Sammendrag av søknaden
+
+## Foreløpig manuell behandling
+Denne malen benyttes til foreløpige svar dersom søknaden må behandles manuelt.
+
+Koder som benyttes:
+
+- ```{navn}``` Søkerens navn
+- ```{adresse}``` Søkerens adresse
+- ```{postnr}``` Søkerens postnummer
+- ```{poststed}``` Søkerens poststed
+- ```{datoSoknad}``` Dato for søknad på formatet dd.mm.åååå
+- ```{dato}``` Dagens dato på formatet dd.mm.åååå
+- ```{skolear}``` Hvilket skoleår vedtaket gjelder på formatet åååå/åååå
+- ```{avdeling}``` Avsenderens avdeling
+- ```{sammendrag}``` Sammendrag av søknaden
+
+## Innvilget
 Denne malen benyttes dersom søknaden innvilges.
 
 Koder som benyttes:
@@ -42,14 +92,16 @@ Koder som benyttes:
 - ```{adresse}``` Søkerens adresse
 - ```{postnr}``` Søkerens postnummer
 - ```{poststed}``` Søkerens poststed
-- ```{dato}``` Dato for søknad på formatet dd.mm.åååå
-- ```{skolar}``` Hvilket skoleår vedtaket gjelder på formatet åååå/åååå
+- ```{datoSoknad}``` Dato for søknad på formatet dd.mm.åååå
+- ```{dato}``` Dagens dato på formatet dd.mm.åååå
+- ```{skolear}``` Hvilket skoleår vedtaket gjelder på formatet åååå/åååå
 - ```{avdeling}``` Avsenderens avdeling
-- ```{avstand}``` Målt avstand
+- ```{sammendrag}``` Sammendrag av søknaden
 
-## Søknad
-Denne malen benyttes for å legge ved en json-representasjon av hele søknaden.
+## Doble kontakter
+Denne malen benyttes til internt notat dersom søknaden ikke kan arkiveres pga doble kontakter.
 
 Koder som benyttes:
 
-- ```{soknad}``` Felt for json
+- ```{dato}``` Dato for søknad på formatet dd.mm.åååå
+- ```{navn}``` Søkerens navn
