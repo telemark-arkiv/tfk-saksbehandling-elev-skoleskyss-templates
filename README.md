@@ -28,19 +28,20 @@ $ npm run setup
 ```
 
 ## Bruk
-
 Send inn id på malen du skal benytte og få fullstendig filbane i retur.
 
 Maler
 - avslag
-- midlertidig
-- soknad
-- tilslag
+- foreløpig svar, annen årsak
+- foreløpig svar, delt bosted
+- foreløpig svar, hybel
+- foreløpig svar, manuell behandling
+- innvilget
 
 ```javascript
 'use strict'
 
-var getTemplatePath = require('tfk-saksbehandling-elev-skoleskyss-templates')
+const getTemplatePath = require('tfk-saksbehandling-elev-skoleskyss-templates')
 
 console.log(getTemplatePath('avslag'))
 
