@@ -20,8 +20,9 @@ Koder som benyttes:
 - ```{datoSoknad}``` Dato for søknad på formatet dd.mm.åååå
 - ```{dato}``` Dagens dato på formatet dd.mm.åååå
 - ```{skolear}``` Hvilket skoleår vedtaket gjelder på formatet åååå/åååå
-- ```{avdeling}``` Avsenderens avdeling
+- ```{navnSkole}``` Navn på skolen man søker skyss til
 - ```{sammendrag}``` Sammendrag av søknaden
+- ```{avstand}``` Beregnet avstand
 
 ## Foreløpig annen årsak
 Denne malen benyttes til foreløpige svar dersom søknadsgrunnlaget er annen årsak.
@@ -35,7 +36,6 @@ Koder som benyttes:
 - ```{datoSoknad}``` Dato for søknad på formatet dd.mm.åååå
 - ```{dato}``` Dagens dato på formatet dd.mm.åååå
 - ```{skolear}``` Hvilket skoleår vedtaket gjelder på formatet åååå/åååå
-- ```{avdeling}``` Avsenderens avdeling
 - ```{sammendrag}``` Sammendrag av søknaden
 
 ## Foreløpig delt bosted
@@ -50,7 +50,6 @@ Koder som benyttes:
 - ```{datoSoknad}``` Dato for søknad på formatet dd.mm.åååå
 - ```{dato}``` Dagens dato på formatet dd.mm.åååå
 - ```{skolear}``` Hvilket skoleår vedtaket gjelder på formatet åååå/åååå
-- ```{avdeling}``` Avsenderens avdeling
 - ```{sammendrag}``` Sammendrag av søknaden
 
 ## Foreløpig hybel
@@ -65,7 +64,6 @@ Koder som benyttes:
 - ```{datoSoknad}``` Dato for søknad på formatet dd.mm.åååå
 - ```{dato}``` Dagens dato på formatet dd.mm.åååå
 - ```{skolear}``` Hvilket skoleår vedtaket gjelder på formatet åååå/åååå
-- ```{avdeling}``` Avsenderens avdeling
 - ```{sammendrag}``` Sammendrag av søknaden
 
 ## Foreløpig manuell behandling
@@ -80,7 +78,6 @@ Koder som benyttes:
 - ```{datoSoknad}``` Dato for søknad på formatet dd.mm.åååå
 - ```{dato}``` Dagens dato på formatet dd.mm.åååå
 - ```{skolear}``` Hvilket skoleår vedtaket gjelder på formatet åååå/åååå
-- ```{avdeling}``` Avsenderens avdeling
 - ```{sammendrag}``` Sammendrag av søknaden
 
 ## Innvilget
@@ -95,13 +92,6 @@ Koder som benyttes:
 - ```{datoSoknad}``` Dato for søknad på formatet dd.mm.åååå
 - ```{dato}``` Dagens dato på formatet dd.mm.åååå
 - ```{skolear}``` Hvilket skoleår vedtaket gjelder på formatet åååå/åååå
-- ```{avdeling}``` Avsenderens avdeling
+- ```{navnSkole}``` Navnet på skolen man er invilget skyss til
+- ```{avstand``` Avstand beregnet
 - ```{sammendrag}``` Sammendrag av søknaden
-
-## Doble kontakter
-Denne malen benyttes til internt notat dersom søknaden ikke kan arkiveres pga doble kontakter.
-
-Koder som benyttes:
-
-- ```{dato}``` Dato for søknad på formatet dd.mm.åååå
-- ```{navn}``` Søkerens navn
