@@ -1,6 +1,6 @@
 {
   "name": "tfk-saksbehandling-elev-skoleskyss-templates",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Templates for the tfk-saksbehandling-elev-skoleskyss ecosystem",
   "license": "MIT",
   "author": {
@@ -10,7 +10,7 @@
   },
   "main": "index.js",
   "engines": {
-    "node": ">=4.4.5"
+    "node": ">=4.4.6"
   },
   "scripts": {
     "test": "standard && tap --reporter=spec test/*.js",
