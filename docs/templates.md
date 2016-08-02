@@ -95,3 +95,10 @@ Koder som benyttes:
 - ```{navnSkole}``` Navnet på skolen man er invilget skyss til
 - ```{avstand``` Avstand beregnet
 - ```{sammendrag}``` Sammendrag av søknaden
+
+## Søknad
+Denne malen benyttes til brev inn.
+
+Koder som benyttes:
+
+- ```{sammendrag}``` Sammendrag av søknaden

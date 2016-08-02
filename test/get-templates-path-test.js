@@ -33,3 +33,5 @@ tap.equal(isFile(getTemplatePath('midlertidig-delt')), true, 'Template for midle
 tap.equal(isFile(getTemplatePath('midlertidig-hybel')), true, 'Template for midlertidig-hybel is a file')
 
 tap.equal(isFile(getTemplatePath('midlertidig-manuell')), true, 'Template for midlertidig-manuell is a file')
+
+tap.equal(isFile(getTemplatePath('soknad')), true, 'Template for soknad is a file')
