@@ -1,6 +1,6 @@
 {
   "name": "tfk-saksbehandling-elev-skoleskyss-templates",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "description": "Templates for the tfk-saksbehandling-elev-skoleskyss ecosystem",
   "license": "MIT",
   "author": {
@@ -16,7 +16,8 @@
     "test": "standard && nsp check && tap --reporter=spec test/*.js",
     "coverage": "tap test/*.js --coverage",
     "coveralls": "tap --cov --coverage-report=lcov test/*.js && cat coverage/lcov.info | coveralls",
-    "setup": "npm install && node setup.js"
+    "setup": "npm install && node setup.js",
+    "standard-fix": "standard --fix"
   },
   "keywords": [
     "Tfk",
