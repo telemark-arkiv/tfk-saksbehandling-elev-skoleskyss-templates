@@ -34,10 +34,10 @@
     "url": "http://github.com/telemark/tfk-saksbehandling-elev-varsel-skoleskyss/issues"
   },
   "devDependencies": {
-    "coveralls": "2.11.15",
+    "coveralls": "2.11.16",
     "is-file": "1.0.0",
     "nsp": "2.6.2",
     "standard": "8.6.0",
-    "tap": "10.0.0"
+    "tap": "10.0.2"
   }
 }
